@@ -1,0 +1,184 @@
+.color1{
+	/*background-color: #23F687;*/
+	/*background-color: rgba(255, 100, 84, .3);*/
+	
+	background-color: #23F687;/*fix IE8 <*/
+	background-color: hsl(90, 70%, 50%);
+}
+
+.color1:hover{
+	background-color: hsl(90, 100%, 50%);
+}
+
+.color2{
+	background-color: hsl(100, 70%, 50%);
+}
+.color2:hover{
+	background-color: hsl(100, 100%, 50%);
+}
+
+.color3{
+	background-color: hsl(130, 70%, 50%);
+}
+.color3:hover{
+	background-color: hsl(130, 100%, 50%);
+}
+
+.color4{
+	background-color: hsl(150, 70%, 50%);
+}
+.color4:hover{
+	background-color: hsl(150, 100%, 50%);
+}
+
+.color5{
+	background-color: hsl(170, 70%, 50%);
+}
+.color5:hover{
+	background-color: hsl(170, 100%, 50%);
+}
+
+.color6{
+	background-color: hsl(190, 70%, 50%);
+}
+
+.color7{
+	background-color: hsl(210, 70%, 50%);
+}
+
+.color8{
+	background-color: hsl(230, 70%, 50%);
+}
+
+.color9{
+	background-color: hsl(250, 70%, 50%);
+}
+
+.color10{
+	background-color: hsl(270, 70%, 50%);
+}
+
+.color11{
+	background-color: hsl(290, 70%, 50%);
+}
+
+.color12{
+	background-color: hsl(310, 70%, 50%);
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/*li {
+	-webkit-text-overflow: break-word;
+}*/
+
+
+#container1, #container2{
+	width: 80%; /*960px;*/
+	background-color: hsl(0, 0%, 90%);
+	margin: 0 auto;
+}
+
+/*.columna, .columnas{*/
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*background-color: hsl(0, 0%, 70%);*/
+	/*display: inline-block;*/
+	/*margin-right: -4px;*/ /* http://css-tricks.com/fighting-the-space-between-inline-block-elements/ */
+	/*text-overflow: ellipsis;*/
+	/*overflow: hidden;*/
+	/*white-space: nowrap;*/
+/*}*/
+
+
+#container{
+	width: 80%; /*960px;*/
+	margin: 0 auto;
+}
+
+.columna, .columnas{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+
+img{
+	max-width: 100%;
+	color: red;
+}
+
+/*
+MAL!!!!!
+.una{width: 8.33%;}
+
+.dos{width: 9.09%;}
+
+.tres{width: 10%;}
+
+.cuatro{width: 11.11%;}
+
+.cinco{width: 12.5%;}
+
+.seis{width: 14.29%;}
+
+.siete{width: 16.67%;}
+
+.ocho{width: 20%;}
+
+.nueve{width: 25%;}
+
+.diez{width: 33.33%;}
+
+.once{width: 50%;}
+
+.doce{width: 100%;}*/
+
+.una,
+.dos,
+.tres,
+.cuatro,
+.cinco,
+.seis,
+.siete,
+.ocho,
+.nueve,
+.diez,
+.once,
+.doce{width: 95%;}
+
+@media only screen and (min-width: 768px){
+	.una{width: 8%;}
+
+	.dos{width: 17%;}
+
+	.tres{width: 25%;}
+
+	.cuatro{width: 33%;}
+
+	.cinco{width: 42%;}
+
+	.seis{width: 50%;}
+
+	.siete{width: 58%;}
+
+	.ocho{width: 67%;}
+
+	.nueve{width: 75%;}
+
+	.diez{width: 83%;}
+
+	.once{width: 92%;}
+
+	.doce{width: 100%;}
+}
+
+
+
+
+

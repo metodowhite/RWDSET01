@@ -1,0 +1,86 @@
+.color1{
+	/*background-color: #23F687;*/
+	/*background-color: rgba(255, 100, 84, .3);*/
+	
+	background-color: #23F687;/*fix IE8 <*/
+	background-color: hsl(90, 70%, 50%);
+}
+
+.color1:hover{
+	background-color: hsl(90, 100%, 50%);
+}
+
+.color2{
+	background-color: hsl(100, 70%, 50%);
+}
+.color2:hover{
+	background-color: hsl(100, 100%, 50%);
+}
+
+.color3{
+	background-color: hsl(130, 70%, 50%);
+}
+.color3:hover{
+	background-color: hsl(130, 100%, 50%);
+}
+
+.color4{
+	background-color: hsl(150, 70%, 50%);
+}
+.color4:hover{
+	background-color: hsl(150, 100%, 50%);
+}
+
+.color5{
+	background-color: hsl(170, 70%, 50%);
+}
+.color5:hover{
+	background-color: hsl(170, 100%, 50%);
+}
+
+
+
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+
+#container, #container2{
+	width: 960px;
+	background-color: hsl(0, 0%, 90%);
+	margin: 0 auto;
+}
+
+.columna, .columnas{
+	margin: 0;
+	padding: 0;
+	background-color: hsl(0, 0%, 70%);
+	display: inline-block;
+	margin-right: -4px; /* http://css-tricks.com/fighting-the-space-between-inline-block-elements/ */
+}
+
+.una{width: 80px;}
+
+.dos{width: 160px;}
+
+.tres{width: 240px;}
+
+.cuatro{width: 320px;}
+
+.cinco{width: 400px;}
+
+.seis{width: 480px;}
+
+.siete{width: 560px;}
+
+.ocho{width: 640px;}
+
+.nueve{width: 720px;}
+
+.diez{width: 800px;}
+
+.once{width: 880px;}
+
+.doce{width: 960px;}
