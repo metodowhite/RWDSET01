@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundation</title>
+  <link rel="stylesheet" href="css/app.css" />
+  <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+  <div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+
+      <header class="show-for-medium-up row">
+      <!-- ul#idiomas>li*6>a[href="idioma$"]{Idioma $}
+      img#logo
+      nav#main-nav>ul>li*6>a[href="idioma$"]{Idioma $} -->
+
+      <ul id="idiomas" class="medium-4 columns medium-offset-8">
+        <li><a href="idioma1">Idioma 1</a></li>
+        <li><a href="idioma2">Idioma 2</a></li>
+        <li><a href="idioma3">Idioma 3</a></li>
+        <li><a href="idioma4">Idioma 4</a></li>
+        <li><a href="idioma5">Idioma 5</a></li>
+        <li><a href="idioma6">Idioma 6</a></li>
+      </ul>
+
+      <nav id="main-nav" class="medium-12 columns">
+        <ul>
+          <li><a href="section1">section 1</a></li>
+          <li><a href="section2">section 2</a></li>
+          <li><a href="section3">section 3</a></li>
+          <li><a href="section4">section 4</a></li>
+          <li><a href="section5">section 5</a></li>
+          <li><a href="section6">section 6</a></li>
+          <li><a href="section4">section 7</a></li>
+          <li><a href="section5">section 8</a></li>
+          <li><a href="section6">section 9</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <a class="left-off-canvas-toggle show-for-small-only" href="#" >Menu</a>
+
+    <!-- Off Canvas Menu -->
+    <nav class="left-off-canvas-menu">
+      <!-- whatever you want goes here -->
+      <ul>
+        <li><a href="section1">section 1</a></li>
+        <li><a href="section2">section 2</a></li>
+        <li><a href="section3">section 3</a></li>
+        <li><a href="section4">section 4</a></li>
+        <li><a href="section5">section 5</a></li>
+        <li><a href="section6">section 6</a></li>
+        <li><a href="section4">section 7</a></li>
+        <li><a href="section5">section 8</a></li>
+        <li><a href="section6">section 9</a></li>
+      </ul>
+    </nav>
+
+    <!-- main content goes here -->
+    <figure id="logo" class="small-8 columns">
+      <img src="images/logo.svg" alt="">  
+    </figure>
+
+    <a id="login-button" class="small-4 columns" href="#entrar">Entrar</a>
+
+    <section class="row">
+      <h1 class="medium-7 columns medium-centered">COMPRUEBA TU DÉCIMO</h1>
+      <form action="">
+        <div class="small-12 columns">
+        <label for="">Fecha del sorteo <span>13/09/2014</span></label>
+        <input type="date" />
+        </div>
+        <div class="small-12 columns">
+          <input type="text" placeholder="Número" />
+        </div>
+        <div class="small-6 columns">
+          <input type="text" placeholder="Fracción" />
+        </div>
+        <div class="small-6 columns">
+          <input type="text" placeholder="Serie" />
+        </div>
+      </form>
+    </section>
+
+    <section class="row">
+      <h1 class="medium-7 columns medium-centered">SORTEO DE LOTERÍA NACIONAL</h1>
+      <h2>Resultado del  sábado 13 de septiembre de 2014</h2>
+
+      <article class="small-12 columns">
+        <p>Primer Premio <b>60.000,00 €</b></p>
+        <p>59860</p>
+        <p>Fracción 5
+        Serie 6</p>
+        <p>Premio especial al décimo: 3.000.000,00 €</p>
+      </article>
+      <article class="row">
+        <section class="small-6 columns">
+          <p>Segundo Premio <b>60.000,00 €</b></p>
+        <p>59860</p>
+        </section>
+        <section class="small-6 columns">
+          <p>Reintegros <b>6,00€</b></p>
+        <p>0 - 0 - 0</p>
+        </section>
+      </article>
+      <a class="small-6 columns" href="#mas-informacion">más información</a>
+      <a class="small-6 columns" href="#listado-premios">listado de premios</a>
+    </section>
+
+    <section class="row">
+      <h1 class="medium-7 columns medium-centered">VER SORTEOS ANTERIORES</h1>
+      <h2>Algún componente majo de calendario semanal</h2>
+    </section>
+
+    <section class="row">
+      <button class="button">Ver Próximos Sorteos</button>
+    </section>
+
+
+    <!-- close the off-canvas menu -->
+    <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

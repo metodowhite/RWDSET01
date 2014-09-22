@@ -1,0 +1,152 @@
+
+$color-principal: rgb(90, 60, 90);
+
+@mixin border-radius($radius, $color) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+
+          background-color: $color;
+}
+
+// .box { @include border-radius(10px); }
+
+
+body{
+	background-color: $color-principal;
+}
+
+ul, figure{
+	margin: 0;
+	padding: 0;
+}
+
+// li{
+// 	list-style-type: none;
+// }
+
+#main-nav ul{
+	text-align: right;
+}
+
+#main-nav li{
+	display: inline-block;
+}
+
+#main-nav li a, #small-menu{
+	font-family: Helvetica, Verdana, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color:black;
+	margin-left: 1em;
+}
+
+#main-nav li a:hover, #small-menu:hover{
+	color: $color-principal;
+}
+
+#small-menu{
+	text-align: right;
+}
+
+// #works li.columns{
+// 	margin: 0.5em 0;
+// 	padding: 0 0.5em;
+// }
+
+// #works figure{
+// 	position: relative;
+// }
+
+// #works figcaption{
+// 	width: 100%;
+// 	height: 100%;
+
+// 	position: absolute;
+// 	top:0;
+// 	padding: 1em;
+
+// 	color: white;
+// 	font-family: Helvetica, Verdana, sans-serif;
+// 	font-weight: bold;
+// 	font-size: 1.2em;
+// 	text-transform: capitalize;
+// 	background-color: $color-principal;
+// 	opacity: 0;
+
+// 	-webkit-transition: all 1s ease;
+// 	-o-transition: all 1s ease;
+// 	transition: all 1s ease;
+// }
+
+// #works figcaption:hover{
+// 	opacity: 1;
+// }
+
+img{
+	@include border-radius(10px, red);
+}
+
+#works {
+	li {
+		list-style-type: none;
+
+		&.columns{
+			margin: 0.5em 0;
+			padding: 0 0.5em;
+		}
+	}
+
+	figure {
+		position: relative;
+
+	}
+
+	figcaption {
+		width: 100%;
+		height: 100%;
+
+		position: absolute;
+		top:0;
+		padding: 1em;
+
+		color: white;
+		font-family: Helvetica, Verdana, sans-serif;
+		font-weight: bold;
+		font-size: 1.2em;
+		text-transform: capitalize;
+		background-color: $color-principal;
+		opacity: 0;
+
+		-webkit-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+
+@import 'testimport';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

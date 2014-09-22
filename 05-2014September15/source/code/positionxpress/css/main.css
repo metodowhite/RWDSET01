@@ -1,0 +1,47 @@
+body{
+	height: 10000px;
+}
+
+.cuadrado{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	position: absolute;
+
+	/*position: static;
+	position: relative;
+	position: absolute;
+	position: fixed;*/
+}
+
+
+#color1{
+	background-color: red;
+	top:0;
+	left: 0; 
+}
+
+#color2{
+	background-color: green;
+	top: 0;
+	right: 0;
+}
+
+#color3{
+	background-color: blue;	
+	bottom: 0;
+	left: 0;
+}
+#color4{
+	background-color: yellow;
+	bottom: 0;
+	right: 0;
+}
+
+
+
+
+
+
+
+
